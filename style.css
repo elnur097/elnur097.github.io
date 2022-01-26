@@ -1,0 +1,375 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+	
+}
+body{
+	background-image: url(img/2.jpg);
+	background-size: auto;
+	justify-content:center	;
+	align-items: 	center	;
+	font-family:'poppins', sans-serif;
+	width: 100%;
+	height: 100vh%;
+	background-repeat: no-repeat;
+	}
+
+
+	
+
+
+
+h1{
+	
+	font-weight: center;
+	font-size: 25px;
+	letter-spacing:4px;
+	color: #F5FFFA;
+	margin: 15px 15px 20px;
+	left: 3px;font-family: serif;
+	text-transform: uppercase;
+	-webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
+	line-height: 0.70em;
+}
+
+
+
+
+
+
+p{
+	font-family: serif ;
+	margin:15px 35px 20px;
+	font-weight: lighte;
+	display: ruby;
+	font-size: 25px;
+	color: #F5FFFA;
+	letter-spacing: 1px;
+	
+
+
+}
+
+p1{ position:absolute;
+    top: 366px;
+    left: 90px;
+	font-family: serif ;
+	font-size: 25px;
+	color:  #25D366 ;
+	
+	}
+
+p2{ position:absolute;
+    top: 436px;
+    left: 90px;
+	font-family: serif ;
+	font-size: 25px;
+	color:  #29A1DD ;
+	
+
+}
+
+p3{ position:absolute;
+    top: 502px;
+    left: 90px;
+	font-family: serif ;
+	font-size: 25px;
+	color:  #F33D52 ;
+
+}
+
+p4{ position:absolute;
+    top: 571px;
+    left: 90px;
+	font-family: serif ;
+	font-size: 25px;
+	color:  #0677E8 ;
+	
+}
+
+ 
+p6{ position:absolute;
+    top: 636px;
+    left: 90px;
+	font-family: serif ;
+	font-size: 25px;
+	color: #f5f5f5f5;
+}
+
+p7{ position:absolute;
+    top: 706px;
+    left: 90px;
+	font-family: serif ;
+	font-weight: lighte;
+	font-size: 25px;
+	color: #DF7401;
+	
+}
+
+p8{
+	font-family:  sans-serif ;
+	font-weight: center;
+	font-size: 25px;
+	position: absolute;
+	letter-spacing:2px;
+	color: #F5FFFA;
+	top: 1300px;
+	left:50px;
+	text-transform: uppercase;
+	-webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
+	line-height: 0.70em;
+}
+.wp {
+	width: 100%;
+	height: 100vh;
+	background-color: transparent ;
+	
+	animation: wp infinite;
+	animation-delay: 0s;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+}
+
+.wp :hover{
+	animation-play-state: paused
+}
+
+@keyframes wp {
+	from{ left: 1500px;}
+	to {left: 90px;} 
+}
+
+.tg {
+	width: 100px;
+	height: 100px;
+	background-color: transparent ;
+	
+	animation: tg infinite;
+	animation-delay: 0s;
+	animation-duration: 1.3s;
+	animation-iteration-count: 1;
+}
+
+.tg :hover{
+	animation-play-state: paused
+}
+
+@keyframes tg {
+	from{ left: 1500px;}
+	to {left: 90px;}
+}
+
+.ig {
+	width: 100px;
+	height: 100px;
+	background-color: transparent ;
+	
+	animation: ig infinite;
+	animation-delay: 0s;
+	animation-duration: 1.6s;
+	animation-iteration-count: 1;
+}
+
+.ig :hover{
+	animation-play-state: paused
+}
+
+@keyframes ig {
+	from{ left: 1500px;}
+	to {left: 90px;}
+}
+
+.fb {
+	width: 100px;
+	height: 100px;
+	background-color: transparent ;
+
+	animation: fb infinite;
+	animation-delay: 0s;
+	animation-duration: 1.9s;
+	animation-iteration-count: 1;
+}
+	
+
+.fb :hover{
+	animation-play-state: paused
+}
+
+@keyframes fb {
+	from{ left: 1500px;}
+	to {left: 90px;}
+}
+
+.tt {
+	width: 100px;
+	height: 100px;
+	background-color: transparent ;
+
+	animation: tt infinite;
+	animation-delay: 0s;
+	animation-duration: 2.1s;
+	animation-iteration-count: 1;
+}
+
+.tt :hover{
+	animation-play-state: paused
+}
+
+@keyframes tt {
+	from{ left: 1500px;}
+	to {left: 90px;}
+}
+
+.gh {
+	width: 100px;
+	height: 100px;
+	background-color: transparent ;
+	
+	animation: gh infinite;
+	animation-delay: 0s;
+	animation-duration: 2.4s;
+	animation-iteration-count: 1;
+	}
+
+.gh :hover{
+	animation-play-state: paused
+}
+
+@keyframes gh {
+	from{ left: 1500px;}
+	to {left: 90px;}
+}
+
+.gm {
+	width: 100px;
+	height: 100px;
+	background-color: transparent ;
+	
+	animation: gm infinite;
+	animation-delay: 0s;
+	animation-duration: 2.7s;
+	animation-iteration-count: 1;
+}
+
+.gm :hover{
+	animation-play-state: paused
+}
+
+@keyframes gm {
+	from{ left: 1500px;}
+	to {left: 90px;}
+}
+
+
+
+
+
+.img{
+
+	border-radius: 25%;
+	margin: 15px 35px 20px; 
+	top: 70px;
+	left: 20px;
+	background-attachment: fixed;
+	box-shadow: 0px 0px 11px 11px rgba(144, 143, 143, 3), 0px 0px 0px 1px rgba(192,192,192, 0.9);
+
+	
+
+
+
+}
+
+.social-media{
+	justify-content:center;
+	transform: -50%, -50%;
+	margin: 15px 15px 20;
+	font-size: 30px;
+	margin:15px 15px 20px;
+	font-weight: lighte;
+	display: ruby;
+	font-size: 25px;
+	color: #F5FFFA;
+	letter-spacing: 1px;
+	position:relative;	
+}
+	
+
+	
+	
+
+
+a{
+	display: flex;
+	background: transparent;
+	height: 45px;
+	width: 45px;
+	margin: 22px;
+	border-radius: 17px;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	box-shadow: 0px 0px 7px 4px rgba(144, 143, 143, 3), 0px 0px 0px 1px rgba(192,192,192, 0.9);
+}
+
+.fa-whatsapp{
+	color:  #25D366 ;
+}
+
+.fa-telegram{
+	color:  #29A1DD ;
+}
+
+.fa-instagram{
+	color:  #F33D52 ;
+}
+
+.fa-facebook{
+	color:  #0677E8 ;
+}
+
+.fa-google-plus-g{
+	color:  #DF7401 ;
+}
+
+.fa-github{
+	color:  #f5f5f5f5 ;
+}
+
+a:hover> i{
+	font-size: 38px;
+	transition: 0.3s all;
+	transform: rotate(360deg);
+}
+
+a:hover .fa-whatsapp{
+	color: #25D366;
+}
+a:hover .fa-telegram{
+	color: #29A1DD;
+}
+a:hover .fa-instagram{
+	color: #bc2a8d;
+}
+a:hover .fa-facebook{
+	color: #0677E8;
+}
+a:hover .fa-google-plus-g{
+	color: #DF7401;
+}
+
+a:hover .fa-github{
+	color: #f5f5f5f5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
